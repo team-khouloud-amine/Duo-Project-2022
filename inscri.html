@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <link rel="stylesheet" href="inscription.css">
+</head>
+
+<body>
+    <h2 style="color:#151313 ;">Thank you for your interest in our institution</h2>
+    <div class="container">
+        <h3 style="color:#000000c0 ;">Parents' contact information</h3>
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Phone number</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="+216">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for=""><E-mail>E-mail</E-mail></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="x@gmail.com">
+                </div>
+            </div>
+        </form>
+        <h3>Child Information</h3>
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="Gender">Gender</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="male">Male</option>
+                        <option value="femal">Femal</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        </form>
+        <h3>Date</h3>
+        <form action="action_page.php">
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Date</label>
+            </div>
+            <div class="col-75">
+                <input type="date" id="date" name="date">
+            </div>
+        </div>
+            <div class="row">
+                <button onclick=inscri() type="submit">inscription</button>
+            </div>
+
+        </form>
+    </div>
+<script src="inscri.js"></script>
+</body>
+</html>

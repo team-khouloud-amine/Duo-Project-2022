@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    background: url('https://c0.wallpaperflare.com/preview/265/305/268/school-kindergarten-children-childhood.jpg');
+    background-size: cover;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: black;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    
+    padding: 20px;
+    opacity:80% ;
+}
+
+.col-25 {
+    float: left;
+    width: 23%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
